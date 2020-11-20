@@ -14,6 +14,7 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.BooksApp"
         tools:targetApi="m">
+        <activity android:name=".DetailActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
